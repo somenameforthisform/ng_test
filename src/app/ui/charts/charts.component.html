@@ -1,0 +1,4 @@
+@if(chartsData | async; as chartsData) {
+        <apx-chart [series]="chartsData.series" [xaxis]="chartsData.xaxis" [chart]="chartsData.chart"
+            [stroke]="chartsData.stroke" [dataLabels]="chartsData.dataLabels" [title]="chartsData.title"></apx-chart>
+}   

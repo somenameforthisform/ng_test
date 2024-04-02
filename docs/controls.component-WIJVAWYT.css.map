@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/ui/controls/controls.component.scss"],
+  "sourcesContent": ["  .wrap {\n    width: 100%;\n    height: 100%;\n    padding-top: 18px;\n    \n  }\n\n  .form-field {\n    width: 100%;\n  }\n\n  .button-wrap {\n    width: 90%;\n    display: flex;\n    justify-content: flex-end;\n    margin-top: 24px;\n  }"],
+  "mappings": "AAAE,CAAA,KACE,MAAA,KACA,OAAA,KACA,YAAA,KAIF,CAAA,WACE,MAAA,KAGF,CAAA,YACE,MAAA,IACA,QAAA,KACA,gBAAA,SACA,WAAA",
+  "names": []
+}

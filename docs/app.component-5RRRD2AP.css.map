@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.scss"],
+  "sourcesContent": [".main {\n    display: flex;\n    min-height: 100svh;\n    width: 100svw;\n    overflow: auto;\n}\n\n.controls-wrap {\n    width: 20%;\n    min-width: 328px;\n}\n\n.charts-wrap {\n    width: 900px;\n    margin-left: 16px;\n    margin: auto;\n}"],
+  "mappings": "AAAA,CAAA,KACI,QAAA,KACA,WAAA,OACA,MAAA,OACA,SAAA,KAGJ,CAAA,cACI,MAAA,IACA,UAAA,MAGJ,CAAA,YACI,MAAA,MAbJ,OAeI",
+  "names": []
+}

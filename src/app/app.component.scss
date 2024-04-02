@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    min-height: 100svh;
+    width: 100svw;
+    overflow: auto;
+}
+
+.controls-wrap {
+    width: 20%;
+    min-width: 328px;
+}
+
+.charts-wrap {
+    width: 900px;
+    margin-left: 16px;
+    margin: auto;
+}

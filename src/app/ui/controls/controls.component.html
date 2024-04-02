@@ -1,0 +1,23 @@
+    <mat-card class="wrap">
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <mat-form-field class="form-field">
+            <mat-label>Расход угля (тонн)</mat-label>
+            <input type="number" matInput formControlName="coal" placeholder="Введите расход угля (тонн)">
+            @if (form.controls['coal'].errors) {
+            <mat-error>Значение должно быть больше 0 и меньше 1000</mat-error>
+            }
+        </mat-form-field>
+
+        <mat-form-field class="form-field">
+            <mat-label>Расход газа (тыс. м3)</mat-label>
+            <input type="number"  matInput  formControlName="gas" placeholder="Введите расход газа (тыс. м3)">
+            @if (form.controls['gas'].errors) {
+            <mat-error>Значение должно быть больше 0 и меньше 1000</mat-error>
+            }
+        </mat-form-field>
+        <mat-calendar [selected]="form.get('date')?.value" (selectedChange)="updateFormDate($event)"></mat-calendar>
+        <div class="button-wrap">
+            <button class="submit-button" mat-raised-button type="submit" [disabled]="form.invalid">Добавить</button>
+        </div>
+    </form>
+</mat-card>
